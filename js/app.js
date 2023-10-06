@@ -1,3 +1,5 @@
+const contDOMElement = document.querySelector('.box')
+console.log(contDOMElement)
 
 // - creare un ciclo per scrivere in console i numeri da 1 a 100.
 for (let i = 0; i < 100; i++) {
@@ -11,7 +13,7 @@ for (let i = 0; i < 100; i++) {
     if (mulThr === 0 && mulFiv === 0) {
         console.log('fizzbuzz');
 
- //     - SE i numeri sono multipli di 3 
+ //     - Se i numeri sono multipli di 3 
 //         - stampare "Fizz"
     }   else if( mulThr === 0) { 
         console.log('fizz')
@@ -24,14 +26,9 @@ for (let i = 0; i < 100; i++) {
     else {
         console.log(n)
     }
-    
-    
 
-    
-
-
-
-    
-  
+    const boxDOMElement = document.createElement('box')
+    contDOMElement.append(boxDOMElement)    
+   
 
 }   

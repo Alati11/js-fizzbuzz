@@ -1,0 +1,25 @@
+body {
+    background-color: brown;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+}
+.box {
+    border: 1px solid black;
+    min-height: 20px;
+    background-color:burlywood;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
