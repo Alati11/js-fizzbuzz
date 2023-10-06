@@ -5,8 +5,8 @@ console.log(contDOMElement)
 for (let i = 0; i < 100; i++) {
     let n = i + 1;
     // - dichiaro variabili per multipli di 3 e di 5 
-    let mulThr = n % 3; 
-    let mulFiv = n % 5;
+     mulThr = n % 3; 
+     mulFiv = n % 5;
 
 //     - Se i numeri multipli sia di 3 che di 5 
 //         - stampare "FizzBuzz" 
@@ -27,7 +27,9 @@ for (let i = 0; i < 100; i++) {
         console.log(n)
     }
 
-    const boxDOMElement = document.createElement('box')
+    // Crea un container nel DOM , aggiungendo (attraverso la funzione append()) 
+     //un elemento html con il numero o la stringa corretta da mostrare.//
+    let boxDOMElement = document.createElement('div')
     contDOMElement.append(boxDOMElement)    
    
 
